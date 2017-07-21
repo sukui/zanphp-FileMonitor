@@ -10,7 +10,7 @@ namespace Com\Youzan\ZanHttpDemo\Init\WorkerStart;
 ```
 2. 配置项目init
 
-修改项目init/WorkerStart/.config.php (如果没有就新建一个),加入文件监控代码
+修改项目init/WorkerStart/.config.php (如果没有就新建一个),加入文件监控代码, 本例使用的命名空间是\Com\Youzan\ZanHttpDemo\Init\WorkerStart
 
 ```php
 <?php
