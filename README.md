@@ -3,7 +3,7 @@ zanphp的开发环境文件修改自动重启代码,原理是通过定时器循�
 
 ## 安装
 1. 修改FileMonitor.php文件命名空间, 
-```
+```php
 <?php
 namespace Com\Youzan\ZanHttpDemo\Init\WorkerStart;
 
@@ -12,7 +12,7 @@ namespace Com\Youzan\ZanHttpDemo\Init\WorkerStart;
 
 修改项目init/WorkerStart/.config.php (如果没有就新建一个),加入文件监控代码
 
-```
+```php
 <?php
 /**
  * Created by PhpStorm.
