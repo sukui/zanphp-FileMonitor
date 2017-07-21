@@ -27,6 +27,9 @@ return [
 
 ```
 
+3. 复制FileMonitor.php 
+复制FileMonitor.php 文件到init/WorkerStart目录
+
 ## 使用
 安装正常项目启动即可
 
