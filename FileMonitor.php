@@ -24,9 +24,9 @@ class FileMonitor
         }
         if($workerId == 0){
             $this->server = $server;
-        $this->monitor_dir = realpath(__DIR__.'/../../');
-        $this->last_mtime = time();
-        Timer::tick(1000,[$this,'check_files_change']);
+            $this->monitor_dir = realpath(__DIR__.'/../../');
+            $this->last_mtime = time();
+            Timer::tick(1000,[$this,'check_files_change']);
         }
     }
 
